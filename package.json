@@ -6,8 +6,11 @@
   "scripts": {
     "start": "node node_modules/node-red/red.js --userDir . --port $PORT"
   },
+  "engines": {
+    "node": "20.x"
+  },
   "dependencies": {
-    "node-red": "^3.1.0",
-    "node-red-dashboard": "^3.6.5"
+    "node-red": "^4.0.0",
+    "@node-red/dashboard": "^0.1.0"
   }
 }
