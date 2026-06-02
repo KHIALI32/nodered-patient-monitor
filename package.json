@@ -1,0 +1,13 @@
+{
+  "name": "projet-suivi-infirmier",
+  "version": "1.0.0",
+  "description": "Dashboard Node-RED pour le suivi des patients",
+  "main": "node_modules/node-red/red.js",
+  "scripts": {
+    "start": "node node_modules/node-red/red.js --userDir . --port $PORT"
+  },
+  "dependencies": {
+    "node-red": "^3.1.0",
+    "node-red-dashboard": "^3.6.5"
+  }
+}
