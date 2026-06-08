@@ -1,16 +1,13 @@
 {
-  "name": "projet-suivi-infirmier",
+  "name": "nodered-patient-monitor",
   "version": "1.0.0",
-  "description": "Dashboard Node-RED pour le suivi des patients",
-  "main": "node_modules/node-red/red.js",
+  "description": "Suivi Patients",
+  "main": "index.js",
   "scripts": {
-    "start": "node node_modules/node-red/red.js --userDir . --port $PORT"
-  },
-  "engines": {
-    "node": "20.x"
+    "start": "node node_modules/node-red/red.js --userDir ."
   },
   "dependencies": {
-    "node-red": "^4.0.0",
-    "@flowfuse/node-red-dashboard": "^1.0.0"
+    "node-red": "^3.1.9",
+    "@flowfuse/node-red-dashboard": "^1.15.0"
   }
 }
